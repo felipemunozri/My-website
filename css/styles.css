@@ -1,0 +1,155 @@
+/************************************TAGS************************************/
+
+body {
+  color: #40514E;
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+/*
+div {
+  background-color: #222831;
+}
+*/
+h1 {
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+  font-size: 562.5%;
+  /*line-height: 2; Esto especifica la distancia entre una línea de texto y otra. Es mejor ocupar valores sin unidad de medidad, donde 1 corresponde al tamaño de la fuente, 2 al doble., etc.*/
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+
+hr {
+  border-style: dotted;
+  border-width: 8px 0 0 0;
+  color: #eaf6f6;
+  width: 4%;
+}
+
+p {
+  line-height: 2;
+}
+
+/************************************CLASSES************************************/
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.webdev-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.programming-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  /* line-height: 2; */
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  /*line-height: 2;*/
+}
+
+.notebook-ico {
+  margin: 0 5px;
+}
+
+.myButton {
+  background: linear-gradient(to bottom, #66bfbf 5%, #11999e 100%);
+  background-color: #66bfbf;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin-top: 50px;
+  padding: 13px 32px;
+  text-decoration: none;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.footer-link {
+  font-family: "Montserrat", sans-serif;
+}
+
+.copyright,
+.icons-credits {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+}
+
+.top-container {
+  background-color: #dcf1ef;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px;
+}
+
+.icons-credits>a {
+  margin: 0cm;
+}
